@@ -5,13 +5,14 @@ with open("README.md", "r") as fh:
 
 setup(
         name='link_previewer',
-        version='0.0.5',
+        version='0.0.6',
         description='Gives the link preview based on Open Graph Protocol',
         py_modules=["previewer"],
         package_dir={'':'src'},
         classifiers=[
             "Programming Language :: Python :: 3",
             "Programming Language :: Python :: 3.6",
+            "Programming Language :: Python :: 3.7",
             "License :: OSI Approved :: MIT License",
             "Operating System :: OS Independent",
             ],

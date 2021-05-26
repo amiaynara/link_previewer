@@ -193,10 +193,10 @@ def get_preview(page_url):
     url, found = finalise_url(soup, page_url)
     img_url, found = extract_image(soup)
 
-    sys.stdout.write(title+'\n')
-    sys.stdout.write(description+'\n')
-    sys.stdout.write(url+'\n')
-    sys.stdout.write(img_url+'\n')
+    #sys.stdout.write(title+'\n')
+    #sys.stdout.write(description+'\n')
+    #sys.stdout.write(url+'\n')
+    #sys.stdout.write(img_url+'\n')
 
     return {"title": title, "description":description, "url":url, "img_url":img_url}
 
